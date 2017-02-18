@@ -99,3 +99,20 @@ xNavigation
 		}
 	}
 }
+
+.wrapper {
+    /* make the footer a row on large screen and a column on smaller screens */
+    display: flex;
+    flex-flow: row nowrap;
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        flex-flow: column wrap;
+        text-align: center;
+        align-content: center;
+    } 
+}
