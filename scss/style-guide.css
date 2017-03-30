@@ -622,26 +622,30 @@ a {
   text-decoration: none; }
 
 /* line 70, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
+body, html, a {
+  cursor: url("fish.png"), auto; }
+
+/* line 74, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
 img {
   max-width: 100%; }
 
-/* line 74, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
+/* line 78, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
 input, textarea, select {
   font-family: "Raleway", sans-serif;
   font-size: 1.6rem; }
 
-/* line 79, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
+/* line 83, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
 h3 {
   margin: 0;
   padding-top: 20px;
   padding-bottom: 15px; }
 
-/* line 87, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
+/* line 91, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
 header nav {
   display: inline-block; }
 
 @media only screen and (min-width: 1024px) {
-  /* line 85, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
+  /* line 89, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
   header {
     height: 80px; }
     /* line 8, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_prefix-mixins.scss */
@@ -650,15 +654,15 @@ header nav {
       content: "";
       display: block; } }
 
-/* line 303, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
+/* line 307, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
 main {
   padding: 50px 0; }
-  /* line 309, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
+  /* line 313, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
   main > h1 {
     text-align: center;
     margin: 3em 0; }
   @media only screen and (min-width: 1600px) {
-    /* line 303, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
+    /* line 307, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
     main {
       max-width: none; } }
 
@@ -668,7 +672,7 @@ section::after {
   content: "";
   display: block; }
 
-/* line 340, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
+/* line 344, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
 section:nth-of-type(1) h2::before {
   content: 'Diving into '; }
 
