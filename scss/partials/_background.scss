@@ -1,0 +1,40 @@
+#css-zen-garden{
+//  height: 5000px;
+//    width: 100%;
+//    background-color: red;
+    background: linear-gradient(#577f84, #404666, #331346, black);
+//    position: absolute;
+//    overflow: hidden;
+    background-size: cover;
+//    background-attachment: fixed;
+//	background-repeat: no-repeat;
+//	background-position: center center;
+//  transform: translate(-1000px);
+    
+  &::after{
+    content:"";
+    display: block;
+    width: 800px;
+    height: 800px;
+    background-color: red;
+    border-radius: 50%;
+    background: radial-gradient(rgba(87,127,132,.2) 50%, rgba(87,127,132,.1) 40%);
+    // margin-top: -200px;
+    top: -200px;
+    margin-left: 400px;
+    position: absolute;
+  }
+  &::before{
+    content:"";
+    display: block;
+    width: 200px;
+    height: 1500px;
+    background: linear-gradient(rgba(87,127,132,.2) 70%, rgba(87,127,132,.05) 30%);
+    position: absolute;
+    transform: rotate(30deg);
+    left: 500px;
+    top: -200px;
+    box-shadow: 100px -80px 10px rgba(87,127,132,.1);
+  }
+}
+
