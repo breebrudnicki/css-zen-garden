@@ -1,0 +1,18 @@
+.intro, .main, .main div{
+    width: 100%;
+    
+}
+
+.main div{
+//    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+.intro{
+    color: #1ea9bf;
+    margin-top: 200px;
+    background: radial-gradient(#ffe3b8, #fffeea);
+    & p, & h1, & h2, & h3{
+        color: darken(#1ea9bf, 20%);
+    }
+}
+

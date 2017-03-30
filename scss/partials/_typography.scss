@@ -4,23 +4,23 @@ xTypography
 
 -------------------------------- */
 
-h1, h2 {
+h1, h2, h3 {
 	font-family: $secondary-font;
 	color: $color-2;
 }
 
 h1 {
-	font-size: 2.4rem;
+	font-size: 2.8rem;
 	font-weight: 300;
 	line-height: 1.2;
 	margin: 0 0 .4em;
 
 	@include MQ(S) {
-		font-size: 3.2rem;
+		font-size: 3.4rem;
 	}
 
 	@include MQ(M) {
-		font-size: 4rem;
+		font-size: 4.2rem;
 	}
 }
 
@@ -30,8 +30,18 @@ h2 {
 	margin: 1em 0;
 
 	@include MQ(S) {
-		font-size: 1.8rem;
-		margin: 1em 0 1.4em;
+		font-size: 2.4rem;
+		margin: 1.6em 0 1em;
+	}
+}
+
+h3 {
+	font-weight: bold;
+	margin: .8em 0;
+
+	@include MQ(S) {
+		font-size: 2.2rem;
+		margin: 1.4em 0 .4em;
 	}
 }
 
@@ -41,8 +51,8 @@ section > h2::before {
 }
 
 p {
-	font-size: 1.4rem;
-	line-height: 1.4;
+	font-size: 1.6rem;
+	line-height: 1.6;
 	color: lighten($color-2, 25%);
 
 	a {
@@ -51,8 +61,8 @@ p {
 	}
 
 	@include MQ(S) {
-		font-size: 1.6rem;
-		line-height: 1.6;
+		font-size: 1.8rem;
+		line-height: 1.8;
 	}
 }
 
