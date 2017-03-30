@@ -414,6 +414,9 @@ body {
 a {
   text-decoration: none; }
 
+body, html, a {
+  cursor: url("fish.png"), auto; }
+
 img {
   max-width: 100%; }
 
