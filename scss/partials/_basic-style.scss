@@ -22,10 +22,10 @@ body {
 	font-family: $primary-font;
 		width: 95%;
 	@include MQ(M) {
-		width: 80%;
+		width: 70%;
 	}
 	@include MQ(S) {
-		width: 70%;
+		width: 80%;
 	}
 	margin: auto;
 }
@@ -263,9 +263,9 @@ header {
 }
 
 main {
-	width: 90%;
-	max-width: $M;
-	margin: 0 auto;
+//	width: 90%;
+//	max-width: $M;
+//	margin: 0 auto;
 	padding: 50px 0;
 
 	> h1 {

@@ -1,15 +1,6 @@
-#css-zen-garden{
-//  height: 5000px;
-//    width: 100%;
-//    background-color: red;
+.main{
     background: linear-gradient(#577f84, #404666, #331346, black);
-//    position: absolute;
-//    overflow: hidden;
     background-size: cover;
-//    background-attachment: fixed;
-//	background-repeat: no-repeat;
-//	background-position: center center;
-//  transform: translate(-1000px);
     
   &::after{
     content:"";
