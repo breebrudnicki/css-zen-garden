@@ -5,6 +5,11 @@
 @import "partials/variables";
 @import 'partials/navigation';
 @import 'partials/typography';
+@import 'partials/background';
+@import 'partials/layout-2';
+@import 'partials/wave';
+@import 'partials/seths-partial';
+
 // color palette - these colors will be the color swatches of the Colors section
 
 /* --------------------------------
@@ -18,7 +23,7 @@ body {
 	background-color: $color-5;
 }
 
-/* --------------------------------
+/* ---------------------- ----------
 
 xPatterns
 

@@ -1,0 +1,34 @@
+html{
+    background: radial-gradient(#ffe3b8, #fffeea);
+    background-size: cover;
+}
+.main{
+    background: linear-gradient(#1ea9bf, #404666, #331346, black);
+    background-size: cover;
+//    1ea9bf, 577f84
+  &::after{
+    content:"";
+    display: block;
+    width: 800px;
+    height: 800px;
+    background-color: yellow;
+    border-radius: 50%;
+    background: radial-gradient(rgba(249,216,75,.2) 50%, rgba(249,216,75,.1) 40%);
+    top: -250px;
+    margin-left: 50%;
+    position: absolute;
+  }
+  &::before{
+    content:"";
+    display: block;
+    width: 200px;
+    height: 1500px;
+    background: linear-gradient(rgba(249,216,75,.2) 60%, rgba(249,216,75,.05) 40%);
+    position: absolute;
+    transform: rotate(30deg);
+    left: 40%;
+    top: -150px;
+    box-shadow: 100px -100px 10px rgba(249,216,75,.1);
+  }
+}
+
