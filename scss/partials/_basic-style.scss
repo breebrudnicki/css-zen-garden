@@ -340,7 +340,7 @@ main {
 section {
 //	margin: 3em 0;
 	@include clearfix;
-    
+
 	&:nth-of-type(1) h2::before {
 		content: 'Diving into ';
 	}

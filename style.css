@@ -390,7 +390,7 @@ section::after {
   border-radius: 50%;
   opacity: .3;
   top: 100%;
-  left: 729px;
+  left: 369px;
   background: radial-gradient(circle at 90% 5px, #e7feff, #000);
   animation: bubbles 11s ease-in-out 0s infinite forwards; }
   .extra2:before {
