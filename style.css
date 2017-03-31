@@ -130,6 +130,9 @@ p {
   p a {
     color: #880201;
     text-decoration: underline; }
+    p a:hover {
+      color: #bb0301;
+      font-weight: bold; }
   @media only screen and (min-width: 768px) {
     p {
       font-size: 1.8rem;
@@ -482,7 +485,7 @@ section::after {
   border-radius: 50%;
   opacity: .3;
   top: 100%;
-  left: 138px;
+  left: 60px;
   background: radial-gradient(circle at 90% 5px, #e7feff, #000);
   animation: bubbles 11s ease-in-out 0s infinite forwards; }
   .extra2:before {

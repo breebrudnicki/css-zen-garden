@@ -58,6 +58,10 @@ p {
 	a {
 		color: $color-1;
 		text-decoration: underline;
+		&:hover {
+			color: lighten($color-1, 10%);
+			font-weight: bold;
+		}
 	}
 
 	@include MQ(S) {
