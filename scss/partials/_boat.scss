@@ -1,0 +1,9 @@
+.explanation::before {
+  height: 140px;
+  width: 80%;
+  background-image: url('sailboat.png');;
+  display: block;
+  margin-bottom: 5em;
+  content: '';
+  animation: ocean-tilt 1s ease-in-out 0s infinite alternate;
+}
