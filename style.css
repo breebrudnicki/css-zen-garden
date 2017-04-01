@@ -71,10 +71,13 @@ xNavigation
 .wrapper {
   /* make the footer a row on large screen and a column on smaller screens */
   display: flex;
-  flex-flow: row nowrap; }
+  flex-flow: row nowrap;
+text-align: center;}
   .wrapper ul {
     list-style: none;
-    padding: 0; }
+    padding: 0; 
+      text-align: center;
+}
   @media only screen and (max-width: 600px) {
     .wrapper {
       flex-flow: column wrap;

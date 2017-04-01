@@ -1,7 +1,5 @@
 /* --------------------------------
-
 xTypography
-
 -------------------------------- */
 
 h1, h2, h3 {
@@ -57,7 +55,12 @@ p {
 
 	a {
 		color: $color-1;
-		text-decoration: underline;
+		text-decoration: none;
+        border-bottom: 2px solid $color-1;
+		&:hover {
+			color: lighten($color-1, 10%);
+			font-weight: bold;
+		}
 	}
 
 	@include MQ(S) {
@@ -66,13 +69,44 @@ p {
 	}
 }
 
+@mixin createDefinition($definition){
+    content:$definition;
+        display: block;
+        position: absolute;
+        background-color: rgba(225,225,225,.5);
+        border-radius: 10%;
+        color: darken($color-5, 30%);
+        padding: 20px;
+        z-index:2;
+        left: 10px;   
+}
+
+abbr{
+    font-weight: bold;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    &[title="Cascading Style Sheets"]:hover::before{
+       @include createDefinition("Cascading Style Sheets");       
+        }
+    &[title="HyperText Markup Language"]:hover::before{
+       @include createDefinition("HyperText Markup Language");       
+        }
+    &[title="Web Standards Project"]:hover::before{
+       @include createDefinition("Web Standards Project");       
+        }
+    &[title="Document Object Model"]:hover::before{
+       @include createDefinition("Document Object Model");       
+        }
+    &[title="World Wide Web Consortium"]:hover::before{
+       @include createDefinition("World Wide Web Consortium");       
+        }
+    }
+
 /* --------------------------------
-
 xButtons
-
 -------------------------------- */
 
-.btn {
+.summary p a, .participation a:nth-child(1), .participation a:nth-child(2) {
 	border: none;
 	box-shadow: none;
 	border-radius: .25em;
@@ -80,17 +114,19 @@ xButtons
 		size: 1.4rem;
 		family: $secondary-font;
 	}
-	color: $color-5;
-	padding: .6em 2.2em;
+	color: #fff;
+	padding: .6em .8em;
 	cursor: pointer;
-	background: $color-1;
+	background: $color-5;
 
 	&:focus {
 		outline: none;
 	}
 
-	.no-touch &:hover {
-		background: lighten($color-1, 5%);
+	&:hover {
+		background: lighten( $color-5, 5%);
+        color: #fff;
+        font-weight: normal;
 	}
 
 	&.btn-success {
@@ -112,7 +148,7 @@ xButtons
 	&.btn-outline {
 		color: $color-1;
 		background: transparent;
-		box-shadow: inset 0 0 0 1px $color-1;
+		box-shadow: inset 0 0 0 1px  $color-5;
 
 		.no-touch &:hover {
 			color: $color-5;
@@ -128,4 +164,53 @@ xButtons
 .cd-buttons .cd-box:nth-of-type(2) span {
 	/* CSS class name color */
 	color: $color-1;
+}
+
+/* --------------------------------
+xFooter
+-------------------------------- */
+footer{
+    margin-top: 100px;
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    & a {
+        color: #666;
+        font-weight: bold;
+        &:hover {
+			color: lighten(#666, 10%);
+			font-weight: bold;
+		}
+    } 
+    
+}
+
+
+/* --------------------------------
+xAside
+-------------------------------- */
+.wrapper{
+    color: red;
+    & li{
+        color: #fff;
+        background-color: darken(#1ea9bf, 20%);
+        margin: 5px;
+        padding: 10px;
+        display: flex;
+        flex-flow: column wrap;
+        &:hover{
+            background-color: darken(#1ea9bf, 10%);
+        }
+    }
+    & a{
+        
+        color: lighten(#1ea9bf, 30%);
+        &:first-of-type{
+        font-weight: bold;
+        color: #fff;
+        }
+    }
 }

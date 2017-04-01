@@ -1,0 +1,14 @@
+.sidebar {
+
+    right: 0;
+    top: 200%;
+    & .wrapper{
+    background: rgba(30, 169, 191, .7);
+    display: flex;
+    flex-flow: column nowrap;
+        }
+    & div{
+        padding: 5px;
+    }
+
+}

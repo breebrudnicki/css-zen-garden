@@ -1,0 +1,42 @@
+$fishHeight: 50px;
+@keyframes moveFish{    
+    0%   {top: 200%; left: 50px;}
+    25%  {top: 220%; left: 80%;}
+    48%  {transform: rotateY(0deg);}
+    50%  {top: 220%; left: 80%; transform: rotateY(180deg);}
+    98%  {transform: rotateY(180deg);}
+    100% {top: 200%; left: 50px; transform: rotateY(0deg);}
+}
+
+.extra1 {
+  height: $fishHeight;
+  width: $fishHeight/.73;
+  top: 220%;
+  left: 50px;
+  background-color: #404666;
+  border-radius: 50%;
+  position: absolute;
+  animation: moveFish 50s linear 0s infinite;
+  box-shadow: inset 70px -80px 10px #404666;
+  z-index: 0;
+    opacity: .2;
+  &::before, &::after{
+    content:"";
+    display: block;
+    height: 45%;
+    width: 53%;
+    background: #404666;
+    border-radius: 50% / 80% 20% 20% 80%;
+    transform: rotate(45deg);
+    position: absolute;
+    left: -20px;
+    top: 0px;
+    z-index: -1;
+   
+  }
+  &::after{
+    border-radius: 50% / 80% 20% 20% 80%;
+    transform: rotate(-45deg);
+    top: 30px;
+  }
+}

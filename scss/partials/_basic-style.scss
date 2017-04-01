@@ -17,10 +17,36 @@ html {
 	font-size: 62.5%;
 }
 //affects the intro and menu
-header, .summary, .preamble, aside.sidebar {
+aside.sidebar {
 	font-size: 1.6rem;
 	font-family: $primary-font;
-		width: 80%;
+	width: 100%;
+    position: relative;
+    right: 5px;
+    top: 175%;
+    & .wrapper{
+    background: rgba(30, 169, 191, .7);
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    }
+	@include MQ(M) {
+		width: 30%;
+        position: absolute;
+	}
+	@include MQ(S) {
+		width: 25%;
+        position: absolute;
+        padding: 20px;
+        
+	}
+	margin: auto;
+}
+//affects the intro and menu
+header, .summary, .preamble {
+	font-size: 1.6rem;
+	font-family: $primary-font;
+	width: 80%;
 
 	@include MQ(M) {
 		width: 60%;
@@ -30,11 +56,17 @@ header, .summary, .preamble, aside.sidebar {
 	}
 	margin: auto;
 }
+.intro .summary p:first-of-type{
+    margin-top: 40px;
+    
+}
 //affects ocean
 .main.supporting{
     font-size: 1.6rem;
 	font-family: $primary-font;
 		width: 100%;
+//    display: flex;
+//    flex-flow: row nowrap;
 	@include MQ(M) {
 		width: 100%;
 	}
@@ -68,7 +100,7 @@ a {
 }
 
 body, html, a {
-	cursor: url("fish.png"), auto;
+	cursor: url("../fish.png"), auto;
 }
 
 img {

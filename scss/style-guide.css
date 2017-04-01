@@ -18,14 +18,14 @@ xNavigation
     color: #fff; }
   /* line 18, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_navigation.scss */
   .cd-primary-nav ul li a, .cd-secondary-nav ul li a {
-    color: #880201;
+    color: #1ea9bf;
     font-family: "Sansita", sans-serif;
     text-decoration: underline; }
 
 /* line 27, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_navigation.scss */
 .cd-logo {
   /* logo box style */
-  background-color: #880201;
+  background-color: #1ea9bf;
   width: 120px; }
   @media only screen and (min-width: 1024px) {
     /* line 27, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_navigation.scss */
@@ -38,7 +38,7 @@ xNavigation
   background: #fff; }
   /* line 41, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_navigation.scss */
   .cd-main-nav li a {
-    color: #fcf9f7;
+    color: #1ea9bf;
     border-color: white; }
   @media only screen and (min-width: 1024px) {
     /* line 47, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_navigation.scss */
@@ -46,29 +46,29 @@ xNavigation
       color: white; }
       /* line 50, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_navigation.scss */
       .cd-main-nav li a.selected {
-        color: #fcf9f7;
-        box-shadow: 0 2px 0 #880201; }
+        color: #1ea9bf;
+        box-shadow: 0 2px 0 #1ea9bf; }
       /* line 55, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_navigation.scss */
       .no-touch .cd-main-nav li a:hover {
-        color: #fcf9f7; } }
+        color: #1ea9bf; } }
 
 /* line 62, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_navigation.scss */
 .cd-nav-trigger span {
   /* hamburger menu */
-  background-color: #fcf9f7; }
+  background-color: #1ea9bf; }
   /* line 66, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_navigation.scss */
   .cd-nav-trigger span::before, .cd-nav-trigger span::after {
     /* upper and lower lines */
-    background-color: #fcf9f7; }
+    background-color: #1ea9bf; }
 
 /* line 73, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_navigation.scss */
 .nav-is-visible .cd-nav-trigger span {
   /* hide line in the center on mobile when nav is visible */
-  background-color: rgba(252, 249, 247, 0); }
+  background-color: rgba(30, 169, 191, 0); }
   /* line 77, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_navigation.scss */
   .nav-is-visible .cd-nav-trigger span::before, .nav-is-visible .cd-nav-trigger span::after {
     /* preserve visibility of upper and lower lines - close icon */
-    background-color: #fcf9f7; }
+    background-color: #1ea9bf; }
 
 /* line 83, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_navigation.scss */
 .cd-download {
@@ -80,12 +80,12 @@ xNavigation
   /* line 91, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_navigation.scss */
   .cd-download span {
     /* tooltip */
-    background: #880201;
-    color: #fcf9f7; }
+    background: #1ea9bf;
+    color: #1ea9bf; }
     /* line 96, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_navigation.scss */
     .cd-download span::before {
       /* right arrow color */
-      border-color: #880201; }
+      border-color: #1ea9bf; }
 
 /* line 103, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_navigation.scss */
 .wrapper {
@@ -104,155 +104,268 @@ xNavigation
       align-content: center; } }
 
 /* --------------------------------
-
 xTypography
-
 -------------------------------- */
-/* line 7, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+/* line 5, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
 h1, h2, h3 {
   font-family: "Sansita", sans-serif;
   color: #fff; }
 
-/* line 12, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+/* line 10, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
 h1 {
   font-size: 2.8rem;
   font-weight: 300;
   line-height: 1.2;
   margin: 0 0 .4em; }
   @media only screen and (min-width: 768px) {
-    /* line 12, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+    /* line 10, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
     h1 {
       font-size: 3.4rem; } }
   @media only screen and (min-width: 1024px) {
-    /* line 12, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+    /* line 10, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
     h1 {
       font-size: 4.2rem; } }
 
-/* line 27, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+/* line 25, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
 h2 {
   font-weight: bold;
   text-transform: uppercase;
   margin: 1em 0; }
   @media only screen and (min-width: 768px) {
-    /* line 27, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+    /* line 25, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
     h2 {
       font-size: 2.4rem;
       margin: 1.6em 0 1em; } }
 
-/* line 38, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+/* line 36, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
 h3 {
   font-weight: bold;
   margin: .8em 0; }
   @media only screen and (min-width: 768px) {
-    /* line 38, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+    /* line 36, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
     h3 {
       font-size: 2.2rem;
       margin: 1.4em 0 .4em; } }
 
-/* line 48, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+/* line 46, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
 section > h2::before {
   /* number before each section title */
   color: #56606b; }
 
-/* line 53, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+/* line 51, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
 p {
   font-size: 1.6rem;
   line-height: 1.6;
   color: white; }
-  /* line 58, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+  /* line 56, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
   p a {
-    color: #880201;
-    text-decoration: underline; }
+    color: #1ea9bf;
+    text-decoration: none;
+    border-bottom: 2px solid #1ea9bf; }
+    /* line 60, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+    p a:hover {
+      color: #31c7df;
+      font-weight: bold; }
   @media only screen and (min-width: 768px) {
-    /* line 53, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+    /* line 51, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
     p {
       font-size: 1.8rem;
       line-height: 1.8; } }
 
+/* line 84, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+abbr {
+  font-weight: bold;
+  color: #fff;
+  border-bottom: 2px solid #fff; }
+  /* line 88, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+  abbr[title="Cascading Style Sheets"]:hover::before {
+    content: "Cascading Style Sheets";
+    display: block;
+    position: absolute;
+    background-color: rgba(225, 225, 225, 0.5);
+    border-radius: 10%;
+    color: #09343b;
+    padding: 20px;
+    z-index: 2;
+    left: 10px; }
+  /* line 91, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+  abbr[title="HyperText Markup Language"]:hover::before {
+    content: "HyperText Markup Language";
+    display: block;
+    position: absolute;
+    background-color: rgba(225, 225, 225, 0.5);
+    border-radius: 10%;
+    color: #09343b;
+    padding: 20px;
+    z-index: 2;
+    left: 10px; }
+  /* line 94, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+  abbr[title="Web Standards Project"]:hover::before {
+    content: "Web Standards Project";
+    display: block;
+    position: absolute;
+    background-color: rgba(225, 225, 225, 0.5);
+    border-radius: 10%;
+    color: #09343b;
+    padding: 20px;
+    z-index: 2;
+    left: 10px; }
+  /* line 97, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+  abbr[title="Document Object Model"]:hover::before {
+    content: "Document Object Model";
+    display: block;
+    position: absolute;
+    background-color: rgba(225, 225, 225, 0.5);
+    border-radius: 10%;
+    color: #09343b;
+    padding: 20px;
+    z-index: 2;
+    left: 10px; }
+  /* line 100, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+  abbr[title="World Wide Web Consortium"]:hover::before {
+    content: "World Wide Web Consortium";
+    display: block;
+    position: absolute;
+    background-color: rgba(225, 225, 225, 0.5);
+    border-radius: 10%;
+    color: #09343b;
+    padding: 20px;
+    z-index: 2;
+    left: 10px; }
+
 /* --------------------------------
-
 xButtons
-
 -------------------------------- */
-/* line 75, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
-.btn {
+/* line 109, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+.summary p a, .participation a:nth-child(1), .participation a:nth-child(2) {
   border: none;
   box-shadow: none;
   border-radius: .25em;
   font-size: 1.4rem;
   font-family: "Sansita", sans-serif;
-  color: #fcf9f7;
-  padding: .6em 2.2em;
+  color: #fff;
+  padding: .6em .8em;
   cursor: pointer;
-  background: #880201; }
-  /* line 88, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
-  .btn:focus {
+  background: #1ea9bf; }
+  /* line 122, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+  .summary p a:focus, .participation a:nth-child(1):focus, .participation a:nth-child(2):focus {
     outline: none; }
-  /* line 92, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
-  .no-touch .btn:hover {
-    background: #a10201; }
-  /* line 96, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
-  .btn.btn-success {
+  /* line 126, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+  .summary p a:hover, .participation a:nth-child(1):hover, .participation a:nth-child(2):hover {
+    background: #21bdd5;
+    color: #fff;
+    font-weight: normal; }
+  /* line 132, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+  .summary p a.btn-success, .participation a:nth-child(1).btn-success, .participation a:nth-child(2).btn-success {
     background: #6fce72; }
-    /* line 99, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
-    .no-touch .btn.btn-success:hover {
+    /* line 135, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+    .no-touch .summary p a.btn-success:hover, .no-touch .participation a:nth-child(1).btn-success:hover, .no-touch .participation a:nth-child(2).btn-success:hover {
       background: #82d485; }
-  /* line 104, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
-  .btn.btn-alert {
+  /* line 140, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+  .summary p a.btn-alert, .participation a:nth-child(1).btn-alert, .participation a:nth-child(2).btn-alert {
     background: #45352e; }
-    /* line 107, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
-    .no-touch .btn.btn-alert:hover {
+    /* line 143, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+    .no-touch .summary p a.btn-alert:hover, .no-touch .participation a:nth-child(1).btn-alert:hover, .no-touch .participation a:nth-child(2).btn-alert:hover {
       background: #544138; }
-  /* line 112, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
-  .btn.btn-outline {
-    color: #880201;
+  /* line 148, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+  .summary p a.btn-outline, .participation a:nth-child(1).btn-outline, .participation a:nth-child(2).btn-outline {
+    color: #1ea9bf;
     background: transparent;
-    box-shadow: inset 0 0 0 1px #880201; }
-    /* line 117, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
-    .no-touch .btn.btn-outline:hover {
-      color: #fcf9f7;
-      background: #880201; }
+    box-shadow: inset 0 0 0 1px #1ea9bf; }
+    /* line 153, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+    .no-touch .summary p a.btn-outline:hover, .no-touch .participation a:nth-child(1).btn-outline:hover, .no-touch .participation a:nth-child(2).btn-outline:hover {
+      color: #1ea9bf;
+      background: #1ea9bf; }
   @media only screen and (min-width: 768px) {
-    /* line 75, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
-    .btn {
+    /* line 109, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+    .summary p a, .participation a:nth-child(1), .participation a:nth-child(2) {
       font-size: 1.6rem; } }
 
-/* line 128, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+/* line 164, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
 .cd-buttons .cd-box:nth-of-type(2) span {
   /* CSS class name color */
-  color: #880201; }
+  color: #1ea9bf; }
+
+/* --------------------------------
+xFooter
+-------------------------------- */
+/* line 172, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+footer {
+  margin-top: 100px;
+  width: 100%;
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around; }
+  /* line 180, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+  footer a {
+    color: #666;
+    font-weight: bold; }
+    /* line 183, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+    footer a:hover {
+      color: gray;
+      font-weight: bold; }
+
+/* --------------------------------
+xAside
+-------------------------------- */
+/* line 195, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+.wrapper {
+  color: red; }
+  /* line 197, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+  .wrapper li {
+    color: #fff;
+    background-color: #105b67;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    flex-flow: column wrap; }
+    /* line 204, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+    .wrapper li:hover {
+      background-color: #178293; }
+  /* line 208, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+  .wrapper a {
+    color: #89dfed; }
+    /* line 211, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_typography.scss */
+    .wrapper a:first-of-type {
+      font-weight: bold;
+      color: #fff; }
 
 /* line 1, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_background.scss */
 html {
   background: radial-gradient(#ffe3b8, #fffeea);
   background-size: cover; }
 
-/* line 5, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_background.scss */
+/* line 6, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_background.scss */
 .main {
   background: linear-gradient(#1ea9bf, #404666, #331346, black);
-  background-size: cover; }
-  /* line 9, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_background.scss */
+  background-size: cover;
+  overflow: hidden;
+  /*
+* THE SUN
+*/ }
+  /* line 13, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_background.scss */
   .main::after {
     content: "";
     display: block;
-    width: 800px;
-    height: 800px;
+    width: 60%;
+    padding-bottom: 60%;
     background-color: yellow;
     border-radius: 50%;
     background: radial-gradient(rgba(249, 216, 75, 0.2) 50%, rgba(249, 216, 75, 0.1) 40%);
-    top: -250px;
-    margin-left: 50%;
+    top: -10%;
     position: absolute; }
-  /* line 21, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_background.scss */
+  /* line 27, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_background.scss */
   .main::before {
     content: "";
     display: block;
-    width: 200px;
-    height: 1500px;
+    width: 20%;
+    padding-bottom: 180%;
     background: linear-gradient(rgba(249, 216, 75, 0.2) 60%, rgba(249, 216, 75, 0.05) 40%);
     position: absolute;
-    transform: rotate(30deg);
-    left: 40%;
+    transform: rotate(-10deg);
+    left: 20%;
     top: -150px;
     box-shadow: 100px -100px 10px rgba(249, 216, 75, 0.1); }
 
@@ -438,21 +551,19 @@ section::after {
   80% {
     background-size: 150em 52.09378%, 148em 54.18389%, 146em 56.26666%, 144em 58.33844%, 142em 60.39558%, 140em 62.43449%, 138em 64.45159%, 136em 66.44333%, 134em 68.40623%, 132em 70.33683%, 130em 72.23176%, 128em 74.08768%, 126em 75.90135%, 124em 77.66958%, 122em 79.38926%, 120em 81.05739%, 118em 82.67103%, 116em 84.22736%, 114em 85.72363%, 112em 87.15724%, 110em 88.52566%, 108em 89.8265%, 106em 91.05746%, 104em 92.2164%, 102em 93.30127%, 100em 94.31018%, 98em 95.24135%, 96em 96.09316%, 94em 96.8641%, 92em 97.55283%, 90em 98.15813%, 88em 98.67895%, 86em 99.11436%, 84em 99.46362%, 82em 99.72609%, 80em 99.90134%, 78em 99.98903%, 76em 99.98903%, 74em 99.90134%, 72em 99.72609%, 70em 99.46362%, 68em 99.11436%, 66em 98.67895%, 64em 98.15813%, 62em 97.55283%, 60em 96.8641%, 58em 96.09316%, 56em 95.24135%, 54em 94.31018%, 52em 93.30127%, 50em 92.2164%, 48em 91.05746%, 46em 89.8265%, 44em 88.52566%, 42em 87.15724%, 40em 85.72363%, 38em 84.22736%, 36em 82.67103%, 34em 81.05739%, 32em 79.38926%, 30em 77.66958%, 28em 75.90135%, 26em 74.08768%, 24em 72.23176%, 22em 70.33683%, 20em 68.40623%, 18em 66.44333%, 16em 64.45159%, 14em 62.43449%, 12em 60.39558%, 10em 58.33844%, 8em 56.26666%, 6em 54.18389%, 4em 52.09378%, 2em 50%; } }
 
-/* line 8, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_seths-partial.scss */
-.extra1 {
+/* line 1, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_seths-partial.scss */
+.extra2 {
   position: relative;
   padding-bottom: 1%;
-  width: 1%;
+  width: 10px;
   border-radius: 50%;
   opacity: .3;
-  top: 90%;
-  background: radial-gradient(circle at 90% 5px, #e7feff, #000); }
-  /* line 18, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_seths-partial.scss */
-  .extra1:hover {
-    transition: all 14s;
-    transform: translate(0px, -800px); }
-  /* line 22, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_seths-partial.scss */
-  .extra1:before {
+  top: 100%;
+  left: 92px;
+  background: radial-gradient(circle at 90% 5px, #e7feff, #000);
+  animation: bubbles 11s ease-in-out 0s infinite forwards; }
+  /* line 12, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_seths-partial.scss */
+  .extra2:before {
     content: "";
     position: absolute;
     padding-bottom: 40%;
@@ -462,8 +573,8 @@ section::after {
     opacity: .7;
     top: -70%;
     left: 20%; }
-  /* line 33, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_seths-partial.scss */
-  .extra1:after {
+  /* line 23, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_seths-partial.scss */
+  .extra2:after {
     content: "";
     position: absolute;
     padding-bottom: 40%;
@@ -474,50 +585,151 @@ section::after {
     top: 140%;
     left: 50%; }
 
+@keyframes bubbles {
+  0% {
+    transform: translate(0px); }
+  100% {
+    transform: translate(0px, -2000px); } }
+
 @keyframes ocean-tilt {
   0% {
-    transform: rotate(10deg); }
+    transform-origin: 25% 0%;
+    transform: rotate(5deg) translateY(5px); }
   100% {
-    transform: rotate(-10deg); } }
+    transform-origin: 25% 0%;
+    transform: rotate(-5deg) translateY(-5px); } }
+
+@keyframes ocean-tilt1 {
+  0% {
+    transform-origin: 25% 0%;
+    transform: rotate(-5deg) translateY(-5px); }
+  100% {
+    transform-origin: 25% 0%;
+    transform: rotate(5deg) translateY(5px); } }
 
 @keyframes ocean-tilt2 {
   0% {
-    transform: rotate(7deg); }
+    transform-origin: 25% 0%;
+    transform: rotate(7deg) translateY(7px); }
   100% {
-    transform: rotate(-7deg); } }
+    transform-origin: 25% 0%;
+    transform: rotate(-7deg) translateY(-7px); } }
 
-/* line 56, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_seths-partial.scss */
-.intro h1 {
-  position: absolute !important;
-  text-align: center;
-  animation: ocean-tilt 15s ease-in-out 0s infinite alternate; }
+@keyframes ocean-tilt3 {
+  0% {
+    transform-origin: 25% 0%;
+    transform: rotate(5deg) translateY(5px); }
+  100% {
+    transform-origin: 25% 0%;
+    transform: rotate(-5deg) translateY(-5px); } }
 
 /* line 68, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_seths-partial.scss */
-.tilt2 {
-  text-align: center;
-  animation: ocean-tilt2 12s ease-in-out 0s infinite alternate; }
+.explanation h3 {
+  position: relative;
+  animation: ocean-tilt 6s ease-in-out 0s infinite alternate; }
+
+/* line 73, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_seths-partial.scss */
+.participation h3 {
+  position: relative;
+  animation: ocean-tilt1 7s ease-in-out 0s infinite alternate; }
+
+/* line 78, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_seths-partial.scss */
+.benefits h3 {
+  position: relative;
+  animation: ocean-tilt2 8s ease-in-out 0s infinite alternate; }
+
+/* line 83, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_seths-partial.scss */
+.requirements h3 {
+  position: relative;
+  animation: ocean-tilt3 9s ease-in-out 0s infinite alternate; }
+
+@keyframes moveFish {
+  0% {
+    top: 200%;
+    left: 50px; }
+  25% {
+    top: 220%;
+    left: 80%; }
+  48% {
+    transform: rotateY(0deg); }
+  50% {
+    top: 220%;
+    left: 80%;
+    transform: rotateY(180deg); }
+  98% {
+    transform: rotateY(180deg); }
+  100% {
+    top: 200%;
+    left: 50px;
+    transform: rotateY(0deg); } }
+
+/* line 11, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_fish.scss */
+.extra1 {
+  height: 50px;
+  width: 68.49315px;
+  top: 220%;
+  left: 50px;
+  background-color: #404666;
+  border-radius: 50%;
+  position: absolute;
+  animation: moveFish 50s linear 0s infinite;
+  box-shadow: inset 70px -80px 10px #404666;
+  z-index: 0;
+  opacity: .2; }
+  /* line 23, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_fish.scss */
+  .extra1::before, .extra1::after {
+    content: "";
+    display: block;
+    height: 45%;
+    width: 53%;
+    background: #404666;
+    border-radius: 50% / 80% 20% 20% 80%;
+    transform: rotate(45deg);
+    position: absolute;
+    left: -20px;
+    top: 0px;
+    z-index: -1; }
+  /* line 37, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_fish.scss */
+  .extra1::after {
+    border-radius: 50% / 80% 20% 20% 80%;
+    transform: rotate(-45deg);
+    top: 30px; }
+
+/* line 1, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_aside.scss */
+.sidebar {
+  right: 0;
+  top: 200%; }
+  /* line 5, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_aside.scss */
+  .sidebar .wrapper {
+    background: rgba(30, 169, 191, 0.7);
+    display: flex;
+    flex-flow: column nowrap; }
+  /* line 10, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_aside.scss */
+  .sidebar div {
+    padding: 5px; }
 
 /* --------------------------------
 
 xBackground
 
 -------------------------------- */
-/* line 21, C:/Users/Britt/Desktop/css-zen-garden/scss/style-guide.scss */
+/* line 23, C:/Users/Britt/Desktop/css-zen-garden/scss/style-guide.scss */
 body {
   /* this is the page background */
-  background-color: #fcf9f7; }
+  background-color: #1ea9bf;
+  min-width: 429px; }
 
 /* --------------------------------
 
 xPatterns
 
 -------------------------------- */
-/* line 32, C:/Users/Britt/Desktop/css-zen-garden/scss/style-guide.scss */
+/* line 35, C:/Users/Britt/Desktop/css-zen-garden/scss/style-guide.scss */
 .cd-box {
   /* this is the container of various design elements - i.e. the 2 logo of the branding section */
   border: 1px solid #7a8694;
   border-radius: 3px;
-  background: #fcf9f7;
+  background: #1ea9bf;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   padding: 6px; }
 
@@ -526,21 +738,21 @@ xPatterns
 xPage title
 
 -------------------------------- */
-/* line 47, C:/Users/Britt/Desktop/css-zen-garden/scss/style-guide.scss */
+/* line 50, C:/Users/Britt/Desktop/css-zen-garden/scss/style-guide.scss */
 main > h1 {
   color: #fff; }
   @media only screen and (min-width: 1600px) {
-    /* line 47, C:/Users/Britt/Desktop/css-zen-garden/scss/style-guide.scss */
+    /* line 50, C:/Users/Britt/Desktop/css-zen-garden/scss/style-guide.scss */
     main > h1 {
       /* title goes into the header on big devices */
-      color: #fcf9f7; } }
+      color: #1ea9bf; } }
 
 /* --------------------------------
 
 xIcons
 
 -------------------------------- */
-/* line 62, C:/Users/Britt/Desktop/css-zen-garden/scss/style-guide.scss */
+/* line 65, C:/Users/Britt/Desktop/css-zen-garden/scss/style-guide.scss */
 .cd-icons li {
   /* icons size */
   width: 32px;
@@ -567,85 +779,116 @@ html {
   font-size: 62.5%; }
 
 /* line 20, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
-header, .summary, .preamble, aside.sidebar {
+aside.sidebar {
+  font-size: 1.6rem;
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+  position: relative;
+  right: 5px;
+  top: 175%;
+  margin: auto; }
+  /* line 27, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
+  aside.sidebar .wrapper {
+    background: rgba(30, 169, 191, 0.7);
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center; }
+  @media only screen and (min-width: 1024px) {
+    /* line 20, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
+    aside.sidebar {
+      width: 30%;
+      position: absolute; } }
+  @media only screen and (min-width: 768px) {
+    /* line 20, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
+    aside.sidebar {
+      width: 25%;
+      position: absolute;
+      padding: 20px; } }
+
+/* line 46, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
+header, .summary, .preamble {
   font-size: 1.6rem;
   font-family: "Raleway", sans-serif;
   width: 80%;
   margin: auto; }
   @media only screen and (min-width: 1024px) {
-    /* line 20, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
-    header, .summary, .preamble, aside.sidebar {
+    /* line 46, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
+    header, .summary, .preamble {
       width: 60%; } }
   @media only screen and (min-width: 768px) {
-    /* line 20, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
-    header, .summary, .preamble, aside.sidebar {
+    /* line 46, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
+    header, .summary, .preamble {
       width: 40%; } }
 
-/* line 34, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
+/* line 59, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
+.intro .summary p:first-of-type {
+  margin-top: 40px; }
+
+/* line 64, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
 .main.supporting {
   font-size: 1.6rem;
   font-family: "Raleway", sans-serif;
   width: 100%;
   margin: auto; }
   @media only screen and (min-width: 1024px) {
-    /* line 34, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
+    /* line 64, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
     .main.supporting {
       width: 100%; } }
   @media only screen and (min-width: 768px) {
-    /* line 34, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
+    /* line 64, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
     .main.supporting {
       width: 100%; } }
 
-/* line 47, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
+/* line 79, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
 .main div {
   width: 80%;
   margin: auto; }
   @media only screen and (min-width: 1024px) {
-    /* line 47, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
+    /* line 79, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
     .main div {
       width: 60%; } }
   @media only screen and (min-width: 768px) {
-    /* line 47, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
+    /* line 79, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
     .main div {
       width: 40%; } }
 
-/* line 58, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
+/* line 90, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
 body, .page-wrapper, section, section::after {
   width: 100%; }
 
-/* line 62, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
+/* line 94, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
 body {
   margin: 0; }
 
-/* line 66, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
+/* line 98, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
 a {
   text-decoration: none; }
 
-/* line 70, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
+/* line 102, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
 body, html, a {
-  cursor: url("fish.png"), auto; }
+  cursor: url("../fish.png"), auto; }
 
-/* line 74, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
+/* line 106, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
 img {
   max-width: 100%; }
 
-/* line 78, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
+/* line 110, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
 input, textarea, select {
   font-family: "Raleway", sans-serif;
   font-size: 1.6rem; }
 
-/* line 83, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
+/* line 115, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
 h3 {
   margin: 0;
   padding-top: 20px;
   padding-bottom: 15px; }
 
-/* line 91, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
+/* line 123, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
 header nav {
   display: inline-block; }
 
 @media only screen and (min-width: 1024px) {
-  /* line 89, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
+  /* line 121, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
   header {
     height: 80px; }
     /* line 8, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_prefix-mixins.scss */
@@ -654,15 +897,15 @@ header nav {
       content: "";
       display: block; } }
 
-/* line 307, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
+/* line 339, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
 main {
   padding: 50px 0; }
-  /* line 313, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
+  /* line 345, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
   main > h1 {
     text-align: center;
     margin: 3em 0; }
   @media only screen and (min-width: 1600px) {
-    /* line 307, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
+    /* line 339, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
     main {
       max-width: none; } }
 
@@ -672,7 +915,7 @@ section::after {
   content: "";
   display: block; }
 
-/* line 344, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
+/* line 376, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_basic-style.scss */
 section:nth-of-type(1) h2::before {
   content: 'Diving into '; }
 
