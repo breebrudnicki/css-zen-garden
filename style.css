@@ -485,7 +485,7 @@ section::after {
   border-radius: 50%;
   opacity: .3;
   top: 100%;
-  left: 60px;
+  left: 68px;
   background: radial-gradient(circle at 90% 5px, #e7feff, #000);
   animation: bubbles 11s ease-in-out 0s infinite forwards; }
   .extra2:before {
@@ -557,6 +557,15 @@ section::after {
 .requirements h3 {
   position: relative;
   animation: ocean-tilt3 9s ease-in-out 0s infinite alternate; }
+
+.explanation::before {
+  height: 140px;
+  width: 80%;
+  background-image: url("sailboat.png");
+  display: block;
+  margin-bottom: 5em;
+  content: '';
+  animation: ocean-tilt 1s ease-in-out 0s infinite alternate; }
 
 /* --------------------------------
 
