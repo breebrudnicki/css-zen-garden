@@ -652,7 +652,7 @@ section::after {
   border-radius: 50%;
   opacity: .3;
   top: 100%;
-  left: 59px;
+  left: 136px;
   background: radial-gradient(circle at 90% 5px, #e7feff, #000);
   animation: bubbles 11s ease-in-out 0s infinite forwards; }
   /* line 12, C:/Users/Britt/Desktop/css-zen-garden/scss/partials/_seths-partial.scss */
